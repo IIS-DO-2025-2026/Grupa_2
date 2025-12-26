@@ -7,4 +7,5 @@
  */
 module Vezbe2 {
 	requires java.desktop;
+	requires heksagon;
 }
