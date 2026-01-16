@@ -20,6 +20,7 @@ public class DrawingFrame extends JFrame {
 		
 		//JPanel panel = new JPanel();
 		getContentPane().add(view, BorderLayout.CENTER);
+		
 	}
 
 	public DrawingView getView() {

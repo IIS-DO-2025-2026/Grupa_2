@@ -39,6 +39,7 @@ public class DrawingController {
 		
 		model.add(vojvodina);
 		frame.repaint();
+		
 	}
 	
 	
