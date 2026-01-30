@@ -26,6 +26,7 @@ public class CryptoCurrencyPrice implements Observable {
 		while(it.hasNext())
 			it.next().update(bitcoinPrice, etherPrice);
 	}
+	
 
 	public void setBitcoinPrice(double bitcoinPrice) {
 		this.bitcoinPrice = bitcoinPrice;
